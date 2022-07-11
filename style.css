@@ -1,16 +1,18 @@
 body { 
     background-image: url('assets/background-image1.png');
     background-repeat: no-repeat;
-    /* background-attachment: relative; */
-     background-position: bottom right;  
-    /* margin: 1em;  */
-    /* width:100%; */
-    background-size: cover;
+    background-position: bottom right;
+    height: 100%;
+    /* Center and scale the image nicely */
+    /* background-size: cover; */
   }
   header{
       display: flex;
       position: relative;
       justify-content: flex-end;
+  }
+  #id1 {
+    text-shadow: 2px 2px grey;
   }
   #img{
       position: relative;
